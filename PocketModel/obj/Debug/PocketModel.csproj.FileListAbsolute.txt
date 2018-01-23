@@ -1,0 +1,10 @@
+D:\Projects\PocketMApp\PocketModel\obj\Debug\PocketModel.csproj.CoreCompileInputs.cache
+D:\Projects\PocketMApp\PocketModel\bin\Debug\PocketModel.dll.config
+D:\Projects\PocketMApp\PocketModel\bin\Debug\PocketModel.dll
+D:\Projects\PocketMApp\PocketModel\bin\Debug\PocketModel.pdb
+D:\Projects\PocketMApp\PocketModel\obj\Debug\PocketModel.dll
+D:\Projects\PocketMApp\PocketModel\obj\Debug\PocketModel.pdb
+D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.dll
+D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.xml
+D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.SqlServer.xml
