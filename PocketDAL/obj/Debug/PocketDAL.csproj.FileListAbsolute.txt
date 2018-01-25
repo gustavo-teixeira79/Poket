@@ -12,3 +12,17 @@ D:\Projects\PocketMApp\PocketDAL\obj\Debug\PocketDAL.csprojResolveAssemblyRefere
 D:\Projects\PocketMApp\PocketDAL\obj\Debug\PocketDAL.csproj.CoreCompileInputs.cache
 D:\Projects\PocketMApp\PocketDAL\obj\Debug\PocketDAL.dll
 D:\Projects\PocketMApp\PocketDAL\obj\Debug\PocketDAL.pdb
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketDAL.dll.config
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketDAL.dll
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketDAL.pdb
+D:\Projects\Dev\PocketDAL\bin\Debug\EntityFramework.dll
+D:\Projects\Dev\PocketDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketModel.dll
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketModel.pdb
+D:\Projects\Dev\PocketDAL\bin\Debug\PocketModel.dll.config
+D:\Projects\Dev\PocketDAL\bin\Debug\EntityFramework.xml
+D:\Projects\Dev\PocketDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Dev\PocketDAL\obj\Debug\PocketDAL.csprojResolveAssemblyReference.cache
+D:\Projects\Dev\PocketDAL\obj\Debug\PocketDAL.csproj.CoreCompileInputs.cache
+D:\Projects\Dev\PocketDAL\obj\Debug\PocketDAL.dll
+D:\Projects\Dev\PocketDAL\obj\Debug\PocketDAL.pdb

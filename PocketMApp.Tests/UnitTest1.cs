@@ -7,6 +7,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Web;
+using PocketModel.Expertise;
+using PocketModel.Specification;
 
 namespace PocketMApp.Tests
 {
@@ -16,11 +18,20 @@ namespace PocketMApp.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            //IQueryable<User> query;
-            //using (var ctx = new PocketContext())
-            //{
-            //    ctx.Database.Initialize(false);
-            //}
+            IQueryable<User> query;
+            using (var ctx = new PocketContext())
+            {
+                //ctx.Database.Initialize(false);
+                if (ctx.Expertises.FirstOrDefault(x=>x.Name == "Language") == null)
+                {
+                    ctx.Expertises.Add(new Expertise{ Name = "Language" });
+                    ctx.SaveChanges();
+                    int eId = ctx.Expertises.FirstOrDefault(x=>x.Name == "Language").ExpertiseId;
+                    ctx.Specifications.Add(new Specification{ Name = "English", ExpertiseId = eId});
+                    ctx.Specifications.Add(new Specification{ Name = "Portuguese", ExpertiseId = eId});
+                    ctx.SaveChanges();
+                }
+            }
             
         }
 

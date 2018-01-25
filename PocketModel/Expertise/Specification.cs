@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PocketModel.Expertise
+namespace PocketModel.Specification
 {
     [Table("T_Specification")]
     public class Specification

@@ -8,3 +8,13 @@ D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.dll
 D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.SqlServer.dll
 D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.xml
 D:\Projects\PocketMApp\PocketModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Dev\PocketModel\bin\Debug\PocketModel.dll.config
+D:\Projects\Dev\PocketModel\bin\Debug\PocketModel.dll
+D:\Projects\Dev\PocketModel\bin\Debug\PocketModel.pdb
+D:\Projects\Dev\PocketModel\bin\Debug\EntityFramework.dll
+D:\Projects\Dev\PocketModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Dev\PocketModel\bin\Debug\EntityFramework.xml
+D:\Projects\Dev\PocketModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.csproj.CoreCompileInputs.cache
+D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.dll
+D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.pdb

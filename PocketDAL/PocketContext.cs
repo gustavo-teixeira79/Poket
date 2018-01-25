@@ -1,4 +1,5 @@
 ﻿using PocketModel.Expertise;
+using PocketModel.Specification;
 using PocketModel.User;
 using System.Data.Entity;
 
