@@ -1,14 +1,14 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using PocketDAL;
-using PocketModel.User;
+using PocketModel.People;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Web;
 using PocketModel.Expertise;
-using PocketModel.Specification;
+
 
 namespace PocketMApp.Tests
 {

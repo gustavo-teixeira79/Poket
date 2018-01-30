@@ -19,6 +19,8 @@ namespace PocketModel.Expertise
         public int ExpertiseId { get; set; }
         public string Name { get; set; }
         public CommonStatus Status { get; set; }
+
+        public virtual ICollection<Specification> Specifications { get; set; }
     }
 
     public class ExpertiseMap : EntityTypeConfiguration<Expertise>

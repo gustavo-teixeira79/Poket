@@ -1,5 +1,5 @@
 Data Source=DESKTOP-5CN6LDG\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
-
+update-database -project PocketDAL -Verbose
 
 https://www.bing.com/videos/search?q=EF6+Code+First&&view=detail&mid=9A4DDBC08AEB6E95CC159A4DDBC08AEB6E95CC15&&FORM=VDRVRV
 https://dzone.com/articles/how-make-sip-video-calls-c

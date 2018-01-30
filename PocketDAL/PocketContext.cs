@@ -1,6 +1,6 @@
 ﻿using PocketModel.Expertise;
-using PocketModel.Specification;
-using PocketModel.User;
+using PocketModel.People;
+using PocketModel.Service;
 using System.Data.Entity;
 
 namespace PocketDAL
@@ -14,6 +14,9 @@ namespace PocketDAL
         public DbSet<User> Users { get; set; }
         public DbSet<Expertise> Expertises { get; set; }
         public DbSet<Specification> Specifications { get; set; }
+        public DbSet<UserSpecification> UserSpecifications { get; set; }
+        public DbSet<UserService> UserServices { get; set; }
+        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -22,6 +25,8 @@ namespace PocketDAL
             modelBuilder.Configurations.Add(new UserMap());
             modelBuilder.Configurations.Add(new ExpertiseMap());
             modelBuilder.Configurations.Add(new SpecificationMap());
+            modelBuilder.Configurations.Add(new UserSpecificationMap());
+            modelBuilder.Configurations.Add(new UserServiceMap());
         }
     }
 }

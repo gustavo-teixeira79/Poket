@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace PocketModel.User
+namespace PocketModel.People
 {
     [Table("T_People")]
     public abstract class Person

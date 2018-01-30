@@ -1,7 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using PocketModel.Expertise;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace PocketModel.User
+namespace PocketModel.People
 {
     [Table("T_User")]
     public class User : Person
@@ -13,7 +15,6 @@ namespace PocketModel.User
         }
         public UserStatus Status { get; set; }
         public UserType Type { get; set; }
-
     }
 
     public class AuthenticateRequest

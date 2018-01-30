@@ -1,4 +1,5 @@
 ﻿using PocketModel.Common;
+using PocketModel.People;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PocketModel.Specification
+namespace PocketModel.Expertise
 {
     [Table("T_Specification")]
     public class Specification
@@ -16,11 +17,12 @@ namespace PocketModel.Specification
         {
             Status = CommonStatus.Active;
         }
-
         public int SpecificationId { get; set; }
         public string Name { get; set; }
-        public int ExpertiseId { get; set; }
         public CommonStatus Status { get; set; }
+
+        public int ExpertiseId { get; set; }
+        public Expertise Expertise { get; set; }
     }
 
     public class SpecificationMap : EntityTypeConfiguration<Specification>
@@ -28,6 +30,7 @@ namespace PocketModel.Specification
         public SpecificationMap()
         {
             Property(x => x.Name).HasMaxLength(50).IsRequired();
+            Property(x => x.ExpertiseId).IsRequired();
         }
     }
 
