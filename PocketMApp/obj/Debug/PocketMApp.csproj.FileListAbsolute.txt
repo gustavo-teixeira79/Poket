@@ -160,4 +160,3 @@ D:\Projects\Dev\PocketMApp\bin\System.Web.Http.WebHost.xml
 D:\Projects\Dev\PocketMApp\obj\Debug\PocketMApp.csproj.CoreCompileInputs.cache
 D:\Projects\Dev\PocketMApp\obj\Debug\PocketMApp.dll
 D:\Projects\Dev\PocketMApp\obj\Debug\PocketMApp.pdb
-D:\Projects\Dev\PocketMApp\obj\Debug\PocketMApp.csprojResolveAssemblyReference.cache

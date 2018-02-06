@@ -18,4 +18,3 @@ D:\Projects\Dev\PocketModel\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.csproj.CoreCompileInputs.cache
 D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.dll
 D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.pdb
-D:\Projects\Dev\PocketModel\obj\Debug\PocketModel.csprojResolveAssemblyReference.cache
