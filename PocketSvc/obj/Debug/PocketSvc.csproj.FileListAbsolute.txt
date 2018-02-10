@@ -73,7 +73,7 @@ D:\Projects\Dev\PocketSvc\bin\Microsoft.ApplicationInsights.dll
 D:\Projects\Dev\PocketSvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Projects\Dev\PocketSvc\bin\Microsoft.Web.Infrastructure.dll
 D:\Projects\Dev\PocketSvc\bin\Newtonsoft.Json.dll
-D:\Projects\Dev\PocketSvc\bin\PocketBiz.dll
+D:\Projects\Dev\PocketSvc\bin\PocketBusiness.dll
 D:\Projects\Dev\PocketSvc\bin\PocketModel.dll
 D:\Projects\Dev\PocketSvc\bin\System.Net.Http.Formatting.dll
 D:\Projects\Dev\PocketSvc\bin\System.Web.Helpers.dll
@@ -86,12 +86,13 @@ D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.Deployment.dll
 D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.dll
 D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.Razor.dll
 D:\Projects\Dev\PocketSvc\bin\Unity.Abstractions.dll
+D:\Projects\Dev\PocketSvc\bin\Unity.AspNet.WebApi.dll
 D:\Projects\Dev\PocketSvc\bin\Unity.Container.dll
 D:\Projects\Dev\PocketSvc\bin\WebActivatorEx.dll
 D:\Projects\Dev\PocketSvc\bin\WebGrease.dll
 D:\Projects\Dev\PocketSvc\bin\PocketDAL.dll
-D:\Projects\Dev\PocketSvc\bin\PocketBiz.pdb
-D:\Projects\Dev\PocketSvc\bin\PocketBiz.dll.config
+D:\Projects\Dev\PocketSvc\bin\PocketBusiness.pdb
+D:\Projects\Dev\PocketSvc\bin\PocketBusiness.dll.config
 D:\Projects\Dev\PocketSvc\bin\PocketModel.pdb
 D:\Projects\Dev\PocketSvc\bin\PocketModel.dll.config
 D:\Projects\Dev\PocketSvc\bin\EntityFramework.xml
@@ -108,6 +109,7 @@ D:\Projects\Dev\PocketSvc\bin\System.Web.Razor.xml
 D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.xml
 D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\Dev\PocketSvc\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Dev\PocketSvc\bin\Unity.AspNet.WebApi.xml
 D:\Projects\Dev\PocketSvc\bin\Antlr3.Runtime.pdb
 D:\Projects\Dev\PocketSvc\bin\Microsoft.ApplicationInsights.xml
 D:\Projects\Dev\PocketSvc\bin\Microsoft.AI.DependencyCollector.xml
@@ -120,5 +122,3 @@ D:\Projects\Dev\PocketSvc\obj\Debug\PocketSvc.csprojResolveAssemblyReference.cac
 D:\Projects\Dev\PocketSvc\obj\Debug\PocketSvc.csproj.CoreCompileInputs.cache
 D:\Projects\Dev\PocketSvc\obj\Debug\PocketSvc.dll
 D:\Projects\Dev\PocketSvc\obj\Debug\PocketSvc.pdb
-D:\Projects\Dev\PocketSvc\bin\Unity.AspNet.WebApi.dll
-D:\Projects\Dev\PocketSvc\bin\Unity.AspNet.WebApi.xml

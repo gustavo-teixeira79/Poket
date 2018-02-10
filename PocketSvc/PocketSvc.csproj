@@ -59,6 +59,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -77,8 +78,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
     </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -275,9 +274,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PocketBiz\PocketBiz.csproj">
-      <Project>{DC63FBE6-D7B5-4F37-BFFC-B3D0816433FF}</Project>
-      <Name>PocketBiz</Name>
+    <ProjectReference Include="..\PocketBusiness\PocketBusiness.csproj">
+      <Project>{fe83c73b-d703-419f-8093-b5b5906698c7}</Project>
+      <Name>PocketBusiness</Name>
     </ProjectReference>
     <ProjectReference Include="..\PocketModel\PocketModel.csproj">
       <Project>{dce48884-3870-438a-a104-55fac08eb46f}</Project>

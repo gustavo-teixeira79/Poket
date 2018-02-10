@@ -1,4 +1,4 @@
-﻿using PocketBiz.Areas.People;
+﻿using PocketBusiness.People;
 using PocketModel.People;
 using System;
 using System.Collections.Generic;

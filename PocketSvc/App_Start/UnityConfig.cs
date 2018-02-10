@@ -1,4 +1,4 @@
-using PocketBiz.Areas.People;
+using PocketBusiness.People;
 using System;
 
 using Unity;
