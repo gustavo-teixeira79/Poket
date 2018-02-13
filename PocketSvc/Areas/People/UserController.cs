@@ -30,5 +30,17 @@ namespace PocketSvc.Areas.People
             
         }
 
+        [HttpPost]
+        public HttpResponseMessage CreateUser([FromBody] User req)
+        {
+            HttpResponseMessage resp = new HttpResponseMessage() { StatusCode = HttpStatusCode.BadRequest };
+            if (req != null)
+            {
+                resp = this.userModule.CreateUser(req);
+            }
+            return resp;
+
+        }
+
     }
 }

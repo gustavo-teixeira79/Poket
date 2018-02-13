@@ -11,5 +11,6 @@ namespace PocketBusiness.People
     public interface IUser
     {
         HttpResponseMessage Authenticate(AuthenticateRequest req);
+        HttpResponseMessage CreateUser(User req);
     }
 }

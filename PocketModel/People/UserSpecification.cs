@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PocketModel.Service
+namespace PocketModel.People
 {
     [Table("T_UserSpecification")]
     public class UserSpecification

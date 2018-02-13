@@ -10,9 +10,9 @@ namespace PocketModel.People
     {
         [Key]
         public int PersonId { get; set; }
-        public string FisrtName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
-        protected string FullName { get { return FisrtName + " " + LastName; } }
+        protected string FullName { get { return FirstName + " " + LastName; } }
         public string Email { get; set; }
         public string Password { get; set; }
     }
@@ -22,7 +22,7 @@ namespace PocketModel.People
     {
         public PersonMap()
         {
-            Property(x => x.FisrtName).HasMaxLength(50).IsRequired();
+            Property(x => x.FirstName).HasMaxLength(50).IsRequired();
             Property(x => x.LastName).HasMaxLength(50).IsRequired();
             Property(x => x.Email).HasMaxLength(255).IsRequired();
             Property(x => x.Password).HasMaxLength(16).IsRequired();

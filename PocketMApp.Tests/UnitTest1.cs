@@ -42,7 +42,7 @@ namespace PocketMApp.Tests
             {
                 if (ctx.Users.FirstOrDefault(x => x.Email == "admin@pocket.com") == null)
                 {
-                    ctx.Users.Add(new User { FisrtName = "ADMIN", LastName = "ADMIN", Password = "Welcome1", Email = "admin@pocket.com" });
+                    ctx.Users.Add(new User { FirstName = "ADMIN", LastName = "ADMIN", Password = "Welcome1", Email = "admin@pocket.com" });
                     ctx.SaveChanges();
                 }
             }
