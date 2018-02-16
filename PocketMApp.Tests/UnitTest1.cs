@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Web;
 using PocketModel.Expertise;
-
+using System;
 
 namespace PocketMApp.Tests
 {
@@ -46,6 +46,22 @@ namespace PocketMApp.Tests
                     ctx.SaveChanges();
                 }
             }
+        }
+
+        [TestMethod]
+        public void HttpAuthTest()
+        {
+            bool resp = false;
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:62123");
+                var content = new StringContent("{\"email\":\"" + "admin@pocket.com" + "\",\"password\":\"" + "Welcome1" + "\"}", Encoding.UTF8, "application/json");
+                client.Timeout = new TimeSpan(0, 0, 60);
+                HttpResponseMessage result = client.PostAsync("/api/user/Authenticate", content).Result;
+                if (result.IsSuccessStatusCode) resp = true;
+            }
+            Assert.IsTrue(resp);
+            
         }
 
     }

@@ -1,0 +1,4 @@
+PocketAApp.MainActivity, PocketAApp;md590e79cd2d807b44a08ff2319356ce3fb.MainActivity
+PocketAApp.MainActivity, PocketAApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md590e79cd2d807b44a08ff2319356ce3fb.MainActivity
+PocketAApp.MainActivity;md590e79cd2d807b44a08ff2319356ce3fb.MainActivity
+pocketaapp.MainActivity;md590e79cd2d807b44a08ff2319356ce3fb.MainActivity

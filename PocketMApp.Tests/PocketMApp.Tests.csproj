@@ -78,10 +78,6 @@
       <Project>{bb589a6f-0d68-400c-8a45-815b1dc0a67c}</Project>
       <Name>PocketDAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PocketMApp\PocketMApp.csproj">
-      <Project>{CD9490EB-B59D-4722-BF49-C403E0DA181A}</Project>
-      <Name>PocketMApp</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PocketModel\PocketModel.csproj">
       <Project>{dce48884-3870-438a-a104-55fac08eb46f}</Project>
       <Name>PocketModel</Name>
